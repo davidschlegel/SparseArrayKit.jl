@@ -1,0 +1,20 @@
+name = "SparseArrayKit"
+uuid = "a9a3c162-d163-4c15-8926-b8794fbefed2"
+authors = ["Jutho Haegeman <jutho.haegeman@ugent.be> and Maarten Van Damme <Maarten.VanDamme@UGent.be>"]
+version = "0.2.1"
+
+[deps]
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+Requires = "ae029012-a4dd-5104-9daa-d747884805df"
+TupleTools = "9d95972d-f1c8-5527-a6e0-b4b365fa01f6"
+
+[compat]
+julia = "1.4"
+Requires = "1"
+TupleTools = "1.1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
